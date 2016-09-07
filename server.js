@@ -16,7 +16,7 @@ var Object_Async = require("async");
 var Object_BodyParser = require("body-parser");
 //Initialize configuration JavaScript file.
 //This is mostly for MongoDB connection.
-var Object_Config_MongoDB = require("./server/configs/Config_MongoDB_Local.js");
+var Object_Config_MongoDB = require("./server/configs/Config_MongoDB_Remote.js");
 var Object_CookieParser = require("cookie-parser");
 var Object_Express = require("express");
 var Object_ExpressSession = require("express-session");
