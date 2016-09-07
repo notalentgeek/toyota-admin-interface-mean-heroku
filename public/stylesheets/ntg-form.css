@@ -1,0 +1,138 @@
+:root{
+    --color-border-input-type-focus: #CCCCCC;
+    --color-border-input-type: #DDDDDD;
+    --color-button-background-edit-and-register: #5CB85C;
+    --color-button-background-remove: #D9534F;
+    --color-button-background-reset: #337AB7;
+    --color-button-border-edit-and-register: #449D44;
+    --color-button-border-remove: #C9302C;
+    --color-button-border-reset: #286090;
+    --color-button-font: #222034;
+    --color-div-font-active: #000000;
+    --color-div-font: #666666;
+    --color-div-panel-form-and-panel-heading: #00415d;
+    --color-div-border-panel-form: #CCCCCC;
+    --color-white: #FFFFFF;
+}
+.override-btn-edit{
+    background-color: var(--color-button-background-edit-and-register);
+    border-color: var(--color-button-border-edit-and-register);
+    color: var(--color-button-font);
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    outline: none;
+    padding: 14px 0;
+    text-transform: uppercase;
+}
+.override-btn-edit:hover,
+.override-btn-edit:focus{
+    background-color: var(--color-button-border-edit-and-register);
+    border-color: var(--color-button-background-edit-and-register);
+    color: var(--color-button-font);
+}
+.override-btn-register{
+    background-color: var(--color-button-background-edit-and-register);
+    border-color: var(--color-button-border-edit-and-register);
+    color: var(--color-button-font);
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    outline: none;
+    padding: 14px 0;
+    text-transform: uppercase;
+}
+.override-btn-register:hover,
+.override-btn-register:focus{
+    background-color: var(--color-button-border-edit-and-register);
+    border-color: var(--color-button-background-edit-and-register);
+    color: var(--color-button-font);
+}
+.override-btn-remove{
+    background-color: var(--color-button-background-remove);
+    border-color: var(--color-button-border-remove);
+    color: var(--color-button-font);
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    outline: none;
+    padding: 14px 0;
+    text-transform: uppercase;
+}
+.override-btn-remove:hover,
+.override-btn-remove:focus{
+    background-color: var(--color-button-border-remove);
+    border-color: var(--color-button-background-remove);
+    color: var(--color-button-font);
+}
+.override-btn-reset{
+    background-color: var(--color-button-background-reset);
+    border-color: var(--color-button-border-reset);
+    color: var(--color-button-font);
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    outline: none;
+    padding: 14px 0;
+    text-transform: uppercase;
+}
+.override-btn-reset:hover,
+.override-btn-reset:focus{
+    background-color: var(--color-button-border-reset);
+    border-color: var(--color-button-background-reset);
+    color: var(--color-button-font);
+}
+.panel-form{
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    border-color: var(--color-div-border-panel-form);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-form input[type="text"],
+.panel-form input[type="email"],
+.panel-form input[type="password"]{
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    border: 1px solid var(--color-border-input-type);
+    font-size: 16px;
+    height: 45px;
+    transition: all 0.1s linear;
+}
+.panel-form input:hover,
+.panel-form input:focus{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: var(--color-border-input-type-focus);
+    box-shadow: none;
+    outline:none;
+}
+.panel-form>.panel-heading a{
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    color: var(--color-div-font);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.1s linear;
+}
+.panel-form>.panel-heading a.active{
+    color: var(--color-div-font-active);
+    font-size: 18px;
+}
+.panel-form>.panel-heading{
+    color: var(--color-div-panel-form-and-panel-heading);
+    background-color: var(--color-white);
+    border-color: var(--color-white);
+    text-align:center;
+}
+.panel-form>.panel-heading hr{
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    border: 0;
+    clear: both;
+    height: 1px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

@@ -1,0 +1,544 @@
+<html
+    ng-app="ng_app_page_login_register_admin"
+>
+<head>
+    <%- include /partials/import_css_and_title %>
+</head>
+<body
+    class="
+        ntg-debug-body-setting-2
+    "
+    ng-controller="ng_controller_page_login_register_admin"
+>
+
+
+
+
+
+    <!--|||||||||||||||||||||||||NAVBAR|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR|||||||||||||||||||||||||-->
+    <nav
+        class="
+            navbar
+            navbar-default
+            navbar-fixed-top
+        "
+    >
+        <div
+            class="
+                container-fluid
+            "
+        >
+            <div
+                class="
+                    navbar-header
+                "
+                id="ntg_div_title_align_center"
+            >
+                <a
+                    class="
+                        navbar-brand
+                        ntg-debug-float-none
+                        text-center
+                    "
+                    href="/"
+                >
+                    Toyota Realtime Admin Interface.
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--|||||||||||||||||||||||||NAVBAR END|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR END|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR END|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR END|||||||||||||||||||||||||-->
+    <!--|||||||||||||||||||||||||NAVBAR END|||||||||||||||||||||||||-->
+
+
+
+
+
+    <div
+        class="
+            container-fill
+            ntg-debug-div-content-setting-1
+        "
+    >
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-12
+                    ntg-debug-dimension-height-percent-10
+                "
+            >
+            </div>
+        </div>
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-4
+                    col-xs-offset-4
+                    ntg-debug-dimension-height-percent-80
+                    ntg-debug-padding-side-0
+                "
+            >
+
+
+
+
+
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <div
+                    class="
+                        ntg-debug-margin-0
+                        panel
+                        panel-form
+                    "
+                >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-heading
+                        "
+                    >
+                        <div
+                            class="
+                                row
+                            "
+                        >
+
+
+
+
+
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    class="
+                                        active
+                                    "
+                                    id="form_left_link"
+                                >
+                                    Login.
+                                </a>
+                            </div>
+
+
+
+
+
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    id="form_right_link"
+                                >
+                                    Register.
+                                </a>
+                            </div>
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr
+                        class="
+                            ntg-debug-margin-0
+                        "
+                    >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-body
+                        "
+                    >
+
+
+
+
+
+                        <div
+                            class="
+                                row
+                            "
+                        >
+                            <div
+                                class="
+                                    col-xs-12
+                                "
+                            >
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        active
+                                    "
+                                    action="/login_admin"
+                                    id="form_left"
+                                    method="post"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_email_login"
+                                            name="admin_string_email_login"
+                                            placeholder="Admin Email"
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_password_login"
+                                            name="admin_string_password_login"
+                                            placeholder="Admin Password"
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                btn
+                                                btn-block
+                                                override-btn-register
+                                                form-control
+                                            "
+                                            id="login_submit"
+                                            name="login_submit"
+                                            type="submit"
+                                            value="Log In."
+                                        >
+                                    </div>
+
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM LOGIN ADMIN END|||||||||||||||||||||||||-->
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        ntg-debug-display-none
+                                    "
+                                    action="/register_admin"
+                                    id="form_right"
+                                    method="post"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_name_register"
+                                            name="admin_string_name_register"
+                                            placeholder="Admin Name"
+                                            type="text"
+                                            value=""
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <select
+                                            class="
+                                                form-control
+                                                ntg-debug-dimension-height-px-45
+                                            "
+                                            id="admin_string_workshopname_register"
+                                            name="admin_string_workshopname_register"
+                                            placeholder="Admin Location."
+                                            ng-model="ng_model_select_workshop"
+                                            ng-options="
+                                                item._id as item.Workshop_String_Name
+                                                for item in ng_options_select_workshop
+                                            "
+                                        >
+                                            <option
+                                                disabled
+                                                selected
+                                                value=""
+                                            >
+                                                Please select workshop location.
+                                            </option>
+                                        </select>
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_workshopid_register"
+                                            name="admin_string_workshopid_register"
+                                            placeholder="Workshop ID (Please Do Not Edit This)."
+                                            type="text"
+                                            value=""
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_email_register"
+                                            name="admin_string_email_register"
+                                            placeholder="Admin Email Address"
+                                            type="email"
+                                            value=""
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_password_register"
+                                            name="admin_string_password_register"
+                                            placeholder="Admin  Password"
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="admin_string_password_confirm_register"
+                                            name="admin_string_password_confirm_register"
+                                            placeholder="Confirm Admin Password"
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                            <input
+                                                class="
+                                                    btn
+                                                    btn-block
+                                                    override-btn-register
+                                                    form-control
+                                                "
+                                                id="register_submit"
+                                                name="register_submit"
+                                                type="submit"
+                                                value="Register."
+                                            >
+                                    </div>
+
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER ADMIN END|||||||||||||||||||||||||-->
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <%- include /partials/import_js_bottom %>
+
+
+
+
+
+</body>
+</html>

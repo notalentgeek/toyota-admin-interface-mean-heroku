@@ -1,0 +1,61 @@
+.sidebar{
+    background: #333;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.sidebar-nav a,
+.sidebar-nav a:active,
+.sidebar-nav a:focus,
+.sidebar-nav a:hover{
+    outline: none;
+}
+.sidebar-nav ul a{
+    background: #45283C;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+    color: #AAA;
+    padding: 10px 20px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.sidebar-nav ul a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+.sidebar-nav ul li, .sidebar-nav ul a{
+    display: block;
+}
+.sidebar-nav ul ul a{
+    background: #663931;
+    padding: 10px 30px;
+}
+.sidebar-nav ul ul a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+.sidebar-nav ul ul ul a{
+    background: #8F563B;
+    padding: 10px 40px;
+}
+.sidebar-nav ul ul ul a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+.sidebar-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-nav{
+    background-image: -webkit-linear-gradient(left, color-stop(#333333 10px), color-stop(#222222 10px));
+    background-image: linear-gradient(to right, #333333 10px, #222222 10px);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+}
+.sidebar-nav-item{
+    padding-left: 5px;
+}
+.sidebar-nav-item-icon{
+    padding-right: 5px;
+}

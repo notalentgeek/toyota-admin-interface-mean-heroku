@@ -1,0 +1,2233 @@
+<html
+    ng-app="ng_app_page_edit_register_workshop"
+>
+<head>
+    <%- include /partials/import_css_and_title %>
+</head>
+<body
+    class="
+        ntg-debug-body-setting-2
+    "
+    ng-controller="ng_controller_page_edit_register_workshop"
+>
+
+
+
+    <header>
+        <% include /partials/import_navbar_static_top_form %>
+    </header>
+
+
+
+
+
+    <div
+        id="ntg_div_dim_screen"
+    >
+    </div>
+
+
+
+
+
+    <div
+        class="
+            container-fill
+            ntg-debug-div-content-setting-1
+        "
+    >
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-12
+                    ntg-debug-dimension-height-percent-10
+                "
+            >
+            </div>
+        </div>
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-8
+                    col-xs-offset-2
+                    ntg-debug-dimension-height-percent-80
+                    ntg-debug-padding-side-0
+                "
+            >
+
+
+
+
+
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <div
+                    class="
+                        ntg-debug-margin-0
+                        panel
+                        panel-form
+                    "
+                >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-heading
+                        "
+                    >
+                        <div
+                            class="
+                                row
+                            "
+                        >
+
+
+
+
+
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    class="
+                                        active
+                                    "
+                                    id="form_left_link"
+                                >
+                                    Edit.
+                                </a>
+                            </div>
+
+
+
+
+
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    id="form_right_link"
+                                >
+                                    Register.
+                                </a>
+                            </div>
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr
+                        class="
+                            ntg-debug-margin-0
+                        "
+                    >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-body
+                        "
+                    >
+
+
+
+
+
+                        <div
+                            class="
+                                row
+                            "
+                        >
+                            <div
+                                class="
+                                    col-xs-12
+                                "
+                            >
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        active
+                                    "
+                                    id="form_left"
+                                    method="put"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <select
+                                            class="
+                                                form-control
+                                                ntg-debug-dimension-height-px-45
+                                            "
+                                            id="ntg_select_workshop"
+                                            ng-model="ng_model_select_workshop"
+                                            ng-options="
+                                                item._id as item.Workshop_String_Name
+                                                for item in ng_options_select_workshop
+                                            "
+                                        >
+                                            <option
+                                                disabled
+                                                selected
+                                                value=""
+                                            >
+                                                Please select object to edit.
+                                            </option>
+                                        </select>
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_string_name_edit"
+                                            name="workshop_string_name_edit"
+                                            placeholder="Workshop Name."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_monday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_monday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Monday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_monday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_monday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_monday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_monday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_monday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_tuesday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_tuesday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Tuesday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_tuesday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_tuesday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_tuesday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_tuesday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_tuesday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_wednesday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_wednesday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Wednesday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_wednesday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_wednesday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_wednesday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_wednesday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_wednesday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_thursday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_thursday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Thursday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_thursday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_thursday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_thursday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_thursday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_thursday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_friday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_friday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Friday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_friday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_friday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_friday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_friday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_friday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_saturday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_saturday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Saturday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_saturday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_saturday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_saturday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_saturday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_saturday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_sunday_edit"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_sunday_edit_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Sunday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_sunday_edit_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_sunday_edit_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45                                                              ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_sunday_edit_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_sunday_edit_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_edit_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_sunday_edit_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_edit_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_edit_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                            ntg-debug-dimension-height-px-500
+                                        "
+                                        id="ntg_div_google_maps_edit_register_workshop_1"
+                                    >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_number_latitude_edit"
+                                            name="workshop_number_latitude_edit"
+                                            placeholder="Workshop Latitude."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_number_longitude_edit"
+                                            name="workshop_number_longitude_edit"
+                                            placeholder="Workshop Longitude."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+                                    <%
+                                        var ntg_btn_edit="ntg_button_edit_workshop";
+                                        var ntg_btn_remove="ntg_button_remove_workshop";
+                                        var ntg_btn_reset="ntg_button_reset_workshop";
+                                    %>
+                                    <%- include /partials/import_button_for_register_form %>
+
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT WORKSHOP END|||||||||||||||||||||||||-->
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        ntg-debug-display-none
+                                    "
+                                    action="/register_workshop"
+                                    id="form_right"
+                                    method="post"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_string_name_register"
+                                            name="workshop_string_name_register"
+                                            placeholder="Workshop Name."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_monday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_monday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Monday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_monday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_monday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_monday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_monday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_monday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_monday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_tuesday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_tuesday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Tuesday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_tuesday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_tuesday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45 
+                                                            "
+                                                            id="ntg_div_workshop_slot_tuesday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_tuesday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_tuesday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_tuesday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_wednesday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_wednesday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Wednesday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_wednesday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_wednesday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_wednesday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_wednesday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_wednesday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_wednesday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_thursday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_thursday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Thursday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_thursday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_thursday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_thursday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_thursday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_thursday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_thursday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_friday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_friday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Friday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_friday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_friday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_friday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_friday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_friday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_friday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_saturday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_saturday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Saturday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_saturday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_saturday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_saturday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_saturday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_saturday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_saturday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div
+                                            id="ntg_div_workshop_slot_sunday_register"
+                                        >
+                                            <div
+                                                class="
+                                                    row
+                                                "
+                                                id="ntg_div_workshop_slot_sunday_register_1"
+                                            >
+                                                <div
+                                                    class="
+                                                        col-xs-6
+                                                    "
+                                                >
+                                                    <div
+                                                        class="
+                                                            input-group
+                                                        "
+                                                    >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                                ntg-debug-dimension-width-px-150
+                                                            "
+                                                        >
+                                                            Sunday.
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_sunday_register_input_time_start_1"
+                                                            name="ntg_div_workshop_slot_sunday_register_input_time_start_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                        <span
+                                                            class="
+                                                                input-group-addon
+                                                            "
+                                                        >
+                                                            -
+                                                        </span>
+                                                        <input
+                                                            class="
+                                                                form-control
+                                                                ntg-debug-dimension-height-px-45                                                              ntg-debug-dimension-height-px-45
+                                                            "
+                                                            id="ntg_div_workshop_slot_sunday_register_input_time_end_1"
+                                                            name="ntg_div_workshop_slot_sunday_register_input_time_end_1"
+                                                            placeholder="HHMM"
+                                                            type="text"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <input
+                                                        class="
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_register_input_slot_amount_1"
+                                                        name="ntg_div_workshop_slot_sunday_register_input_slot_amount_1"
+                                                        placeholder="Slot Amount."
+                                                        type="number"
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-default
+                                                            btn-success
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_register_button_add_1"
+                                                        type="button"
+                                                    >
+                                                        Add.
+                                                    </button>
+                                                </div>
+                                                <div
+                                                    class="
+                                                        col-xs-2
+                                                        ntg-debug-padding-left-px-0
+                                                    "
+                                                >
+                                                    <button
+                                                        class="
+                                                            btn
+                                                            btn-danger
+                                                            btn-default
+                                                            form-control
+                                                            ntg-debug-dimension-height-px-45
+                                                        "
+                                                        id="ntg_div_workshop_slot_sunday_register_button_delete_1"
+                                                        type="button"
+                                                    >
+                                                        Delete.
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                            ntg-debug-dimension-height-px-500
+                                        "
+                                        id="ntg_div_google_maps_edit_register_workshop_2"
+                                    >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_number_latitude_register"
+                                            name="workshop_number_latitude_register"
+                                            placeholder="Workshop Latitude."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="workshop_number_longitude_register"
+                                            name="workshop_number_longitude_register"
+                                            placeholder="Workshop Longitude."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <div
+                                            class="
+                                                col-xs-6
+                                                ntg-debug-padding-left-px-0
+                                                ntg-debug-padding-right-px-6-5
+                                            "
+                                        >
+                                            <input
+                                                class="
+                                                    btn
+                                                    btn-block
+                                                    override-btn-register
+                                                    form-control
+                                                "
+                                                type="submit"
+                                                value="Register."
+                                            >
+                                        </div>
+                                        <div
+                                            class="
+                                                col-xs-6
+                                                ntg-debug-padding-left-px-6-5
+                                                ntg-debug-padding-right-px-0
+                                            "
+                                        >
+                                            <input
+                                                class="
+                                                    btn
+                                                    btn-block
+                                                    override-btn-reset
+                                                    form-control
+                                                "
+                                                id="ntg_button_reset_workshop_register"
+                                                type="reset"
+                                                value="Reset."
+                                            >
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER WORKSHOP END|||||||||||||||||||||||||-->
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <%- include /partials/import_js_bottom %>
+
+
+
+
+
+    <!--JavaScripts those are not necessarily to be in every document.-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtpkvsY7CV5nf5oPWGvSEfiiWT-RCTlk0&callback=Void_InitGoogleMaps_EditRegisterWorkshop" async defer></script>
+
+
+
+
+</body>
+</html>

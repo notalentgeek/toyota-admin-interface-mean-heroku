@@ -1,0 +1,41 @@
+{
+  "author": "notalentgeek",
+  "dependencies": {
+    "async": "^2.0.1",
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.0.0",
+    "bower": "^1.7.9",
+    "connect-mongo": "^0.4.1",
+    "cookie-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "express-session": "^1.0.4",
+    "method-override": "~1.0.0",
+    "mongoose": "~3.8.1",
+    "morgan": "~1.0.0",
+    "nodemon": "^1.10.2",
+    "passport": "^0.1.18",
+    "passport-facebook": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "serve-favicon": "^2.3.0",
+    "socketio": "^1.0.0",
+    "static-favicon": "~1.0.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-google": "^0.6.0",
+    "nodemon": "^1.2.0"
+  },
+  "license": "ISC",
+  "main": "server.js",
+  "name": "admin-interface-6",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "version": "0.0.1"
+}

@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+/*.env
+/database-mongodb
+/node_modules
+npm-debug.log

@@ -1,0 +1,630 @@
+<html
+    ng-app="ng_app_page_edit_register_user"
+>
+<head>
+    <%- include /partials/import_css_and_title %>
+</head>
+<body
+    class="
+        ntg-debug-body-setting-2
+    "
+>
+
+
+
+    <header>
+        <% include /partials/import_navbar_static_top_form %>
+    </header>
+
+
+
+
+
+    <!--
+    <div
+        id="ntg_div_dim_screen"
+    >
+    </div>
+    -->
+
+
+
+
+
+    <div
+        class="
+            container-fill
+            ntg-debug-div-content-setting-1
+        "
+    >
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-12
+                    ntg-debug-dimension-height-percent-10
+                "
+            >
+            </div>
+        </div>
+        <div 
+            class="
+                row
+            "
+        >
+            <div
+                class="
+                    col-xs-4
+                    col-xs-offset-4
+                    ntg-debug-dimension-height-percent-80
+                    ntg-debug-padding-side-0
+                "
+            >
+
+
+
+
+
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT|||||||||||||||||||||||||-->
+                <div
+                    class="
+                        ntg-debug-margin-0
+                        panel
+                        panel-form
+                    "
+                >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-heading
+                        "
+                    >
+                        <div
+                            class="
+                                row
+                            "
+                        >
+
+
+
+
+
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON|||||||||||||||||||||||||-->
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    class="
+                                        active
+                                    "
+                                    id="form_left_link"
+                                >
+                                    Edit.
+                                </a>
+                            </div>
+
+
+
+
+
+                            <div
+                                class="
+                                    col-xs-6
+                                "
+                            >
+                                <a
+                                    href="#"
+                                    id="form_right_link"
+                                >
+                                    Register.
+                                </a>
+                            </div>
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+                            <!--|||||||||||||||||||||||||MAIN BUTTON END|||||||||||||||||||||||||-->
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr
+                        class="
+                            ntg-debug-margin-0
+                        "
+                    >
+
+
+
+
+
+                    <div
+                        class="
+                            panel-body
+                        "
+                    >
+
+
+
+
+
+                        <div
+                            class="
+                                row
+                            "
+                        >
+                            <div
+                                class="
+                                    col-xs-12
+                                "
+                            >
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM EDIT USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        active
+                                    "
+                                    id="form_left"
+                                    method="put"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <select
+                                            class="
+                                                form-control
+                                                ntg-debug-dimension-height-px-45
+                                            "
+                                            id="ntg_select_user"
+                                            name="ntg_select_user"
+                                            ng-controller="ng_controller_select_user"
+                                            ng-model="ng_model_select_user"
+                                            ng-options="
+                                                item._id as item.User_String_Name
+                                                for item in ng_options_select_user
+                                            "
+                                        >
+                                            <option
+                                                disabled
+                                                selected
+                                                value=""
+                                            >
+                                                Please select object to edit.
+                                            </option>
+                                        </select>
+                                    </div>
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_name_edit"
+                                            name="user_string_name_edit"
+                                            placeholder="User Name."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_email_edit"
+                                            name="user_string_email_edit"
+                                            placeholder="User Email."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_password_edit"
+                                            name="user_string_password_edit"
+                                            placeholder="User Password."
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_password_confirm_edit"
+                                            name="user_string_password_confirm_edit"
+                                            placeholder="User Confirm Password."
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <select
+                                            class="
+                                                form-control
+                                                ntg-debug-dimension-height-px-45
+                                            "
+                                            id="user_string_carname_edit"
+                                            name="user_string_carname_edit"
+                                            placeholder="Car used."
+                                            ng-controller="ng_controller_select_car_edit"
+                                            ng-model="ng_model_select_car_edit"
+                                            ng-options="
+                                                item._id as item.Car_String_Name
+                                                for item in ng_options_select_car_edit
+                                            "
+                                        >
+                                            <option
+                                                disabled
+                                                selected
+                                                value=""
+                                            >
+                                                Please select car.
+                                            </option>
+                                        </select>
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_carid_edit"
+                                            name="user_string_carid_edit"
+                                            placeholder="Car ID (Please Do Not Edit This)."
+                                            type="text"
+                                            value=""
+                                        >
+                                    </div>
+
+
+                                    <%
+                                        var ntg_btn_edit="ntg_button_edit_user";
+                                        var ntg_btn_remove="ntg_button_remove_user";
+                                        var ntg_btn_reset="ntg_button_reset_user";
+                                    %>
+                                    <%- include /partials/import_button_for_register_form %>
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM EDIT USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM EDIT USER END|||||||||||||||||||||||||-->
+
+
+
+
+
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER|||||||||||||||||||||||||-->
+                                <form
+                                    class="
+                                        ntg-debug-display-none
+                                    "
+                                    action="/register_user"
+                                    id="form_right"
+                                    method="post"
+                                    role="form"
+                                >
+
+
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_name_register"
+                                            name="user_string_name_register"
+                                            placeholder="User Name."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_email_register"
+                                            name="user_string_email_register"
+                                            placeholder="User Email."
+                                            type="text"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_password_register"
+                                            name="user_string_password_register"
+                                            placeholder="User Password."
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_password_confirm_register"
+                                            name="user_string_password_confirm_register"
+                                            placeholder="User Confirm Password."
+                                            type="password"
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <select
+                                            class="
+                                                form-control
+                                                ntg-debug-dimension-height-px-45
+                                            "
+                                            id="user_string_carname_register"
+                                            name="user_string_carname_register"
+                                            placeholder="Car used."
+                                            ng-controller="ng_controller_select_car_register"
+                                            ng-model="ng_model_select_car_register"
+                                            ng-options="
+                                                item._id as item.Car_String_Name
+                                                for item in ng_options_select_car_register
+                                            "
+                                        >
+                                            <option
+                                                disabled
+                                                selected
+                                                value=""
+                                            >
+                                                Please select car.
+                                            </option>
+                                        </select>
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <input
+                                            class="
+                                                form-control
+                                            "
+                                            id="user_string_carid_register"
+                                            name="user_string_carid_register"
+                                            placeholder="Car ID (Please Do Not Edit This)."
+                                            type="text"
+                                            value=""
+                                        >
+                                    </div>
+
+
+
+                                    <div
+                                        class="
+                                            form-group
+                                        "
+                                    >
+                                        <div
+                                            class="
+                                                col-xs-6
+                                                ntg-debug-padding-left-px-0
+                                                ntg-debug-padding-right-px-6-5
+                                            "
+                                        >
+                                            <input
+                                                class="
+                                                    btn
+                                                    btn-block
+                                                    override-btn-register
+                                                    form-control
+                                                "
+                                                type="submit"
+                                                value="Register."
+                                            >
+                                        </div>
+                                        <div
+                                            class="
+                                                col-xs-6
+                                                ntg-debug-padding-left-px-6-5
+                                                ntg-debug-padding-right-px-0
+                                            "
+                                        >
+                                            <input
+                                                class="
+                                                    btn
+                                                    btn-block
+                                                    override-btn-reset
+                                                    form-control
+                                                "
+                                                id="ntg_button_reset_user_register"
+                                                type="reset"
+                                                value="Reset."
+                                            >
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </form>
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER END|||||||||||||||||||||||||-->
+                                <!--|||||||||||||||||||||||||FORM REGISTER USER END|||||||||||||||||||||||||-->
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+                <!--|||||||||||||||||||||||||CONTENT END|||||||||||||||||||||||||-->
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <%- include /partials/import_js_bottom %>
+
+
+
+
+</body>
+</html>
